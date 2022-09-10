@@ -12,3 +12,6 @@ nohup.out
 .idea/
 __pycache__/
 venv/
+
+# Local Netlify folder
+.netlify

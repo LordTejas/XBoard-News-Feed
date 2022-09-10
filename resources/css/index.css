@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: snow;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 
+Navbar Area
+*/
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+nav {
+    margin: 1rem 1rem 1rem;
+}
+
+.brand-banner {
+    width: 2rem;
+    height: 0.6rem;
+    position: absolute;
+    background-color: rgb(200, 40, 200);
+    top: 0.6rem;
+    left: 0.8rem;
+    border-radius: 0.3rem;
+}
+
+/* 
+Footer Area
+*/
+
+#footer {
+    display: block;
+    margin: 1rem 1rem 2rem;
+    padding-left: 1rem;
+}
+
+#footer h5 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#footer h6 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.fa-brands {
+    /* Makes the icons bigger */
+    font-size: 1.6rem;
+}
+
+/* 
+Main Body
+*/
+
+#main-body {
+    margin: 2rem;
+}
+
+#news-accordian {
+    display: block;
+}
+
+.cirle {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: lightslategray;
+}
+
+.news-card {
+
+    min-height: 40rem;
+    max-height: 40rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.news-card-image {
+    min-height: 20rem;
+    max-height: 30rem;
+    width: 96%;
+    align-self: center;
+
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.news-card-image:hover {
+    filter: brightness(0.5);
+    transition: 0.3s ease all;
+}
+
+.news-body {
+    margin: 1rem 2rem 0rem;
+    min-height: 10rem;
+    max-height: 20rem;
+    align-self: flex-start;
+}
+
+.news-control-btn {
+    width: 2rem;
+    /* min-height: 40rem;
+    max-height: 60rem; */
+    height: 100%;
+    padding: 20rem 0.3rem 0px; 
+    opacity: 0.8;
+    border: none;
+    font-size: 2rem;
+    border-radius: 8px;
+    background-color: lightskyblue;
+}
+
+.news-carousel-prev-btn {
+    position: absolute;
+    top: 0px;
+    left: -1.2rem;
+}
+
+.news-carousel-next-btn {
+    position: absolute;
+    top: 0px;
+    right: -1.2rem;
+}

@@ -1,16 +1,58 @@
-        <html>
-        <head>
+<html>
+
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0" />
         <title>Crio Feed</title>
         <meta name="description" content="Crio Feed Website" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+                crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&family=Roboto:wght@100;400;500&display=swap"
+                rel="stylesheet">
         <link rel="stylesheet" href="resources/css/index.css">
-        </head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 
-        <body>
+</head>
 
-        <div class="h1">Write your code in this file</div>
+<body>
+
+        <nav class="navbar bg-light">
+                <div class="container-fluid">
+                        <div class="brand-banner"></div>
+                        <a class="navbar-brand" href="#">Crio News Feed</a>
+                </div>
+        </nav>
+        
+        <hr />
+
+        <div id="main-body">
+                <div id="main-body-header">
+                        <h3>Today</h3>
+                        <p>Stay Updated with the latest news around the globe!</p>
+                </div>
+
+                <div id="news-accordian" class="accordion accordion-flush"></div>
+        </div>
+
+        <hr />
+
+        <footer id="footer">
+                <h5>Developed By</h5>
+                <h6>
+                        Tejas Kanji
+                        <a href="https://www.linkedin.com/in/tejas-kanji/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/LordTejas" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </h6>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+                crossorigin="anonymous"></script>
         <script src="resources/data/magazines.js"></script>
         <script src="resources/js/index.js"></script>
-        </body>
-        </html>
+</body>
+
+</html>
